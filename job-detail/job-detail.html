@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal - Job Details</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index_login/index.html">Home</a></li>
+            <li><a href="../profile/profile.html">My Profile</a></li>
+            <li><a href="../index_login/login.html" class="logout-btn">Log Out</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <a href="../index_login/index.html" class="back-link">← Back to Job Listings</a>
+        
+        <div class="job-detail-card" id="jobDetailContent">
+            <!-- Content will be loaded by JavaScript -->
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <div class="popup-message" id="popupMessage"></div>
+        <button class="popup-close" id="popupClose">OK</button>
+    </div>
+
+    <script src="job-detail.js"></script>
+</body>
+</html>

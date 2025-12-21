@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal - My Profile</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index_login/index.html">Home</a></li>
+            <li><a href="../profile/profile.html" class="active">My Profile</a></li>
+            <li><a href="../index_login/login.html" class="logout-btn">Log Out</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>My Profile</h1>
+        
+        <div class="profile-card">
+            <div class="profile-info">
+                <div class="info-item">
+                    <div class="info-label">Full Name</div>
+                    <div class="info-value" id="userName">John Doe</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Email</div>
+                    <div class="info-value" id="userEmail">john.doe@example.com</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Applications Submitted</div>
+                    <div class="info-value" id="applicationCount">0</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Member Since</div>
+                    <div class="info-value" id="memberSince">December 2024</div>
+                </div>
+            </div>
+
+            <div class="cv-section">
+                <h2>Upload Your CV</h2>
+                <div class="file-upload-container">
+                    <div class="file-input-wrapper">
+                        <label for="cvUpload" class="upload-btn">Choose PDF File</label>
+                        <input type="file" id="cvUpload" accept=".pdf">
+                        <span class="file-name" id="fileName">No file chosen</span>
+                    </div>
+                    <div class="current-cv" id="currentCV">
+                        <p>Current CV:</p>
+                        <a href="#" id="cvLink">View Uploaded CV</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="applications-section">
+                <h2>My Applications</h2>
+                <div class="applications-list" id="applicationsList">
+                    <div class="no-applications">You haven't applied to any jobs yet.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <div class="popup-message" id="popupMessage"></div>
+        <button class="popup-close" id="popupClose">OK</button>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>
