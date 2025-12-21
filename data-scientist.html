@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCanvas | Data Scientist</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+    <main class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="h-64 bg-gradient-to-r from-green-500 to-teal-600 flex items-center justify-center">
+                <i data-feather="bar-chart-2" class="text-white w-20 h-20"></i>
+            </div>
+            
+            <div class="p-8">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h1 class="text-3xl font-bold text-gray-800">Data Scientist</h1>
+                        <p class="text-gray-600 mt-2">AnalyticsCorp • Remote</p>
+                    </div>
+                    <span class="inline-block bg-gray-100 rounded-full px-4 py-2 text-sm font-semibold text-gray-700">Full-time</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="md:col-span-2">
+                        <h2 class="text-xl font-semibold text-gray-800 mb-4">Job Description</h2>
+                        <div class="prose text-gray-600">
+                            <p>We're seeking a Data Scientist to join our analytics team. You'll work on extracting insights from large datasets and building machine learning models that drive business decisions.</p>
+                            <h3>Responsibilities:</h3>
+                            <ul>
+                                <li>Develop and deploy predictive models using Python/R</li>
+                                <li>Perform exploratory data analysis and visualization</li>
+                                <li>Collaborate with engineering teams to productionize models</li>
+                                <li>Communicate findings to stakeholders through reports and dashboards</li>
+                                <li>Stay current with the latest data science techniques and tools</li>
+                            </ul>
+                            <h3>Requirements:</h3>
+                            <ul>
+                                <li>Master's degree in Statistics, Computer Science, or related field</li>
+                                <li>3+ years experience in data science or analytics</li>
+                                <li>Proficiency in Python (Pandas, Scikit-learn, TensorFlow/PyTorch)</li>
+                                <li>Experience with SQL and big‑data technologies (Spark, Hadoop)</li>
+                                <li>Strong statistical knowledge and A/B testing experience</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-4">Job Details</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <i data-feather="dollar-sign" class="text-gray-500 mr-3 mt-1"></i>
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-600">Salary</p>
+                                        <p class="text-gray-800">$130,000 - $160,000/year</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-feather="map-pin" class="text-gray-500 mr-3 mt-1"></i>
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-600">Location</p>
+                                        <p class="text-gray-800">Remote (Global)</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-feather="clock" class="text-gray-500 mr-3 mt-1"></i>
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-600">Job Type</p>
+                                        <p class="text-gray-800">Full-time</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full py-3 px-4 bg-primary hover:bg-accent text-white font-medium rounded-lg transition-colors flex items-center justify-center">
+                            <i data-feather="send" class="mr-2"></i>
+                            Apply Now
+                        </button>
+                        
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-4">About AnalyticsCorp</h3>
+                            <p class="text-gray-600 text-sm">We are a leading data‑driven consultancy that helps enterprises unlock value from their data. Our team of data scientists, engineers, and analysts work across industries to deliver actionable insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>

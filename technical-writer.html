@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCanvas | Technical Writer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+    <main class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="h-64 bg-gradient-to-r from-teal-400 to-blue-500 flex items-center justify-center">
+                <i data-feather="edit" class="text-white w-20 h-20"></i>
+            </div>
+            
+            <div class="p-8">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h1 class="text-3xl font-bold text-gray-800">Technical Writer</h1>
+                        <p class="text-gray-600 mt-2">DocuTech • Remote</p>
+                    </div>
+                    <span class="inline-block bg-gray-100 rounded-full px-4 py-2 text-sm font-semibold text-gray-700">Contract</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="md:col-span-2">
+                        <h2 class="text-xl font-semibold text-gray-800 mb-4">Job Description</h2>
+                        <div class="prose text-gray-600">
+                            <p>We're looking for a Technical Writer to create clear, comprehensive documentation for our developer‑facing APIs and software products. You'll work closely with engineering and product teams.</p>
+                            <h3>Responsibilities:</h3>
+                            <ul>
+                                <li>Write API documentation, user guides, and tutorials</li>
+                                <li>Collaborate with developers to understand technical details</li>
+                                <li>Maintain and update existing documentation</li>
+                                <li>Create diagrams, screenshots, and other visual aids</li>
+                                <li>Ensure consistency and clarity across all documentation</li>
+                            </ul>
+                            <h3>Requirements:</h3>
+                            <ul>
+                                <li>3+ years of technical writing experience in software</li>
+                                <li>Ability to explain complex technical concepts simply</li>
+                                <li>Experience with documentation tools (Markdown, Git, ReadTheDocs)</li>
+                                <li>Familiarity with software development processes</li>
+                                <li>Excellent written and verbal communication skills</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-4">Job Details</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <i data-feather="dollar-sign" class="text-gray-500 mr-3 mt-1"></i>
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-600">Rate</p>
+                                        <p class="text-gray-800">$50 - $70/hour</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-feather="map-pin" class="text-gray-500 mr-3 mt-1"></i>
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-600">Location</p>
+                                        <p class="text-gray-800">Remote (Any timezone)</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-feather="clock" class="text-gray-500 mr-3 mt-1"></i>
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-600">Job Type</p>
+                                        <p class="text-gray-800">Contract (6‑month project)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full py-3 px-4 bg-primary hover:bg-accent text-white font-medium rounded-lg transition-colors flex items-center justify-center">
+                            <i data-feather="send" class="mr-2"></i>
+                            Apply Now
+                        </button>
+                        
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-4">About DocuTech</h3>
+                            <p class="text-gray-600 text-sm">We specialize in creating developer‑friendly documentation for tech companies. Our team helps products communicate effectively with their users through clear, accurate, and engaging content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>

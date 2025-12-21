@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCanvas | DevOps Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+    <main class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="h-64 bg-gradient-to-r from-purple-600 to-pink-500 flex items-center justify-center">
+                <i data-feather="cloud" class="text-white w-20 h-20"></i>
+            </div>
+            
+            <div class="p-8">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h1 class="text-3xl font-bold text-gray-800">DevOps Engineer</h1>
+                        <p class="text-gray-600 mt-2">CloudSystems Inc. • Austin, TX</p>
+                    </div>
+                    <span class="inline-block bg-gray-100 rounded-full px-4 py-2 text-sm font-semibold text-gray-700">Remote</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="md:col-span-2">
+                        <h2 class="text-xl font-semibold text-gray-800 mb-4">Job Description</h2>
+                        <div class="prose text-gray-600">
+                            <p>Join our infrastructure team to design, build, and maintain our cloud‑native platform. You'll automate everything and ensure high availability and scalability.</p>
+                            <h3>Responsibilities:</h3>
+                            <ul>
+                                <li>Design and implement CI/CD pipelines (Jenkins, GitLab CI, GitHub Actions)</li>
+                                <li>Manage cloud infrastructure on AWS/Azure using Terraform</li>
+                                <li>Monitor system performance and set up alerting (Prometheus, Grafana)</li>
+                                <li>Implement security best practices and compliance controls</li>
+                                <li>Collaborate with development teams to improve deployment processes</li>
+                            </ul>
+                            <h3>Requirements:</h3>
+                            <ul>
+                                <li>4+ years of DevOps or SRE experience</li>
+                                <li>Expertise in AWS (EC2, S3, RDS, Lambda, EKS)</li>
+                                <li>Strong scripting skills (Bash, Python, Go)</li>
+                                <li>Experience with containerization (Docker, Kubernetes)</li>
+                                <li>Knowledge of networking, security, and monitoring tools</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-4">Job Details</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <i data-feather="dollar-sign" class="text-gray-500 mr-3 mt-1"></i>
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-600">Salary</p>
+                                        <p class="text-gray-800">$120,000 - $150,000/year</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-feather="map-pin" class="text-gray-500 mr-3 mt-1"></i>
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-600">Location</p>
+                                        <p class="text-gray-800">Austin, TX (Hybrid)</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-feather="clock" class="text-gray-500 mr-3 mt-1"></i>
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-600">Job Type</p>
+                                        <p class="text-gray-800">Full-time</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full py-3 px-4 bg-primary hover:bg-accent text-white font-medium rounded-lg transition-colors flex items-center justify-center">
+                            <i data-feather="send" class="mr-2"></i>
+                            Apply Now
+                        </button>
+                        
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-4">About CloudSystems Inc.</h3>
+                            <p class="text-gray-600 text-sm">We provide cloud‑infrastructure solutions to enterprises worldwide. Our team is passionate about automation, scalability, and building resilient systems that power critical applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>

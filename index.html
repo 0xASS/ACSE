@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCanvas | Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#60a5fa',
+                        accent: '#3b82f6'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="flex flex-col items-center justify-center min-h-screen px-4 py-12">
+        <div class="w-full max-w-md space-y-8">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-gray-900 animate-scale-in">Welcome</h1>
+                <p class="mt-2 text-gray-700">Sign in to discover your next career opportunity</p>
+            </div>
+            
+            <form class="mt-8 space-y-6">
+                <div class="rounded-md shadow-sm space-y-4">
+                    <div>
+                        <label for="email" class="sr-only">Email address</label>
+                        <input id="email" name="email" type="email" required 
+                               class="relative block w-full px-3 py-3 border border-gray-400 placeholder-gray-600 text-gray-900 rounded-lg focus:outline-none focus:ring-3 focus:ring-accent focus:border-accent"
+                               placeholder="Email address">
+                    </div>
+                    <div>
+                        <label for="password" class="sr-only">Password</label>
+                        <input id="password" name="password" type="password" required 
+                               class="relative block w-full px-3 py-3 border border-gray-400 placeholder-gray-600 text-gray-900 rounded-lg focus:outline-none focus:ring-3 focus:ring-accent focus:border-accent"
+                               placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between">
+                    <div class="text-sm">
+                        <a href="signup.html" class="font-medium text-primary hover:text-accent transition-colors">
+                            New? Sign up!
+                        </a>
+                    </div>
+                    <div>
+                        <button type="submit" class="group relative flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-lg text-white bg-primary hover:bg-accent transition-colors focus:outline-none focus:ring-3 focus:ring-offset-2 focus:ring-accent">
+                            Sign in
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+<script src="components/navbar.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
