@@ -12,21 +12,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // Simulate successful login
+            // Simulate successful login, needs to be modified if not saved in db
             localStorage.setItem('loggedIn', 'true');
             localStorage.setItem('userEmail', email);
-            window.location.href = 'home.html';
+            window.location.href = '../index_login/home_page.html';
+            //commented below after referencing my home page - Nouran :)
     // Add click handlers for job cards (if they don't have inner links)
-    const jobCards = document.querySelectorAll('.bg-white.rounded-xl.shadow-md.cursor-pointer');
-    jobCards.forEach(card => {
-        if (!card.querySelector('a')) {
-            card.addEventListener('click', function() {
-                const title = this.querySelector('h2').textContent;
-                console.log('Clicked job:', title);
-                // In production, redirect to specific job page
-            });
-        }
-    });
+    // const jobCards = document.querySelectorAll('.bg-white.rounded-xl.shadow-md.cursor-pointer');
+    // jobCards.forEach(card => {
+    //     if (!card.querySelector('a')) {
+    //         card.addEventListener('click', function() {
+    //             const title = this.querySelector('h2').textContent;
+    //             console.log('Clicked job:', title);
+    //             // In production, redirect to specific job page
+    //         });
+    //     }
+    // });
 });
 }
     
