@@ -489,7 +489,7 @@ input[type="file"] {
     z-index: 999;
 }
 
-/* Login Page Styles */
+/* Login Page Styles
 .login-page {
     min-height: 100vh;
     display: flex;
@@ -506,14 +506,14 @@ input[type="file"] {
     max-width: 400px;
     width: 90%;
     text-align: center;
-}
+} */
 
 .logo {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
-.login-container h1 {
+/* .login-container h1 {
     color: #2563eb;
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -523,7 +523,7 @@ input[type="file"] {
     color: #666;
     margin-bottom: 2rem;
     line-height: 1.6;
-}
+} */
 
 .placeholder-note {
     background-color: #f0f7ff;
