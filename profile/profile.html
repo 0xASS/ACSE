@@ -21,12 +21,16 @@
         <div class="profile-card">
             <div class="profile-info">
                 <div class="info-item">
-                    <div class="info-label">Full Name</div>
-                    <div class="info-value" id="userName">John Doe</div>
+                    <div class="info-label">First Name</div>
+                    <input type="text" id="firstName" class="info-input" disabled>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Last Name</div>
+                    <input type="text" id="lastName" class="info-input" disabled>
                 </div>
                 <div class="info-item">
                     <div class="info-label">Email</div>
-                    <div class="info-value" id="userEmail">john.doe@example.com</div>
+                    <input type="text" id="userEmail" class="info-input" disabled>
                 </div>
                 <div class="info-item">
                     <div class="info-label">Applications Submitted</div>
@@ -35,6 +39,14 @@
                 <div class="info-item">
                     <div class="info-label">Member Since</div>
                     <div class="info-value" id="memberSince">December 2024</div>
+                </div>
+            </div>
+
+            <div class="profile-actions">
+                <button id="editBtn" class="action-btn edit-btn">Edit Profile</button>
+                <div id="editActions" class="edit-actions" style="display: none;">
+                <button id="saveBtn" class="action-btn save-btn">Save Changes</button>
+                <button id="cancelBtn" class="action-btn cancel-btn">Cancel</button>
                 </div>
             </div>
 

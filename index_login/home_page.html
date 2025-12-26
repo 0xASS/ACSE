@@ -17,9 +17,17 @@
 
     <div class="container">
         <h1>Available Job Listings</h1>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="remote">Remote</button>
+            <button class="filter-btn" data-filter="onsite">On-site</button>
+            <button class="filter-btn" data-filter="fulltime">Full-time</button>
+        </div>
+
         
         <div class="jobs-grid">
-            <a href="../job-detail/job-detail.html?id=1" class="job-card">
+            <a href="../job-detail/job-detail.html?id=1" class="job-card" data-type="remote fulltime senior">
                 <div class="job-header">
                     <div>
                         <div class="job-title">Senior Software Engineer</div>
@@ -44,7 +52,7 @@
                 </div>
             </a>
 
-            <a href="../job-detail/job-detail.html?id=2" class="job-card">
+            <a href="../job-detail/job-detail.html?id=2" class="job-card" data-type="onsite fulltime mid">
                 <div class="job-header">
                     <div>
                         <div class="job-title">Marketing Manager</div>
@@ -69,7 +77,7 @@
                 </div>
             </a>
 
-            <a href="../job-detail/job-detail.html?id=3" class="job-card">
+            <a href="../job-detail/job-detail.html?id=3" class="job-card" data-type="remote contract mid">
                 <div class="job-header">
                     <div>
                         <div class="job-title">Mechanical Design Engineer</div>
@@ -80,8 +88,8 @@
                 
                 <div class="job-tags">
                     <span class="tag remote">Remote</span>
-                    <span class="tag">Contract</span>
-                    <span class="tag">Mid Level</span>
+                    <span class="tag contract">Contract</span>
+                    <span class="tag mid">Mid Level</span>
                 </div>
                 
                 <div class="job-description">
@@ -95,5 +103,6 @@
             </a>
         </div>
     </div>
+    <script src="home.js"></script>
 </body>
 </html>
